@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/user/register
+Content-Type:  application/json
+
+{
+    "name":"Eldhos",
+    "email":"eldhosaji@gmail.com",
+    "password":"password"
+}
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "name":"Eldhos Aji"
+}
+
+###
+POST http://localhost:8080/api/user/login
+Content-Type:  application/json
+
+{
+    "email":"eldhosaji1998@gmail.com",
+    "password":"password"
+}
+
+###
+GET http://localhost:8080/api/post
+authToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTRlNTI5M2YwMmE2MTcyZDhlOTk4ZDkiLCJpYXQiOjE1ODIxOTc1Njd9.awVFrRoG17KiBJ1Uv2KGki-Zg8fiI3wZpvEFWRs97VM
